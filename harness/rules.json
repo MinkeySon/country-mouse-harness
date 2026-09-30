@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "frame": { "width": 390, "height": 844 },
+  "screens_per_run": [2, 3],
+  "references_per_run": [3, 5],
+  "reference_required_fields": ["ui_url", "story_element", "takeaway"],
+  "colors_allowed": [
+    "#141414", "#FDFDFD", "#0055FF", "#EAF0FF", "#FFFFFF",
+    "#F3F3F3", "#F0F0F0", "#E0E0E0", "#EEEEEE", "#CFCFCF",
+    "#707070", "#ADADAD", "#C77A1E", "#FFF3E3", "#D64545"
+  ],
+  "radius_allowed": [0, 10, 16, 24, 9999],
+  "font_family": ["Pretendard"],
+  "font_size_allowed": [11, 12, 13, 15, 16, 17, 18, 22, 28, 32],
+  "font_weight_allowed": [300, 400, 500, 600, 700],
+  "shadow_allowed_on": ["amount-bubble", "transaction-sheet"],
+  "primary_button": { "component": "button-primary", "max_per_frame": 1 },
+  "amount_text": {
+    "pattern": "^[+-][0-9][0-9,.]*만?원?$",
+    "color_by_sign": { "+": "#0055FF", "-": "#141414" }
+  },
+  "components": [
+    "amount-bubble", "amount-text", "badge", "bank-group-card", "bank-squircle",
+    "button-outline", "button-pill-soft", "button-primary", "day-cell", "empty-state",
+    "map-pin", "map-view", "memo-box", "month-tile", "participant-row",
+    "screen-header", "segmented-control", "segmented-control-active", "settlement-card", "skeleton",
+    "summary-header", "sync-banner", "tab-bar", "text-input", "text-input-focused",
+    "transaction-row", "transaction-sheet", "zoom-transition"
+  ],
+  "input_components": ["text-input", "text-input-focused", "memo-box"],
+  "readonly_forbidden_words": ["송금", "이체하기", "결제하기", "보내기", "충전하기", "출금하기"],
+  "original_field_prefix": "transaction."
+}

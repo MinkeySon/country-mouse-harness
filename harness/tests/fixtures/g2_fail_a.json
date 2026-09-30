@@ -1,0 +1,60 @@
+{
+  "story": 3,
+  "screens": [
+    {
+      "id": "day-detail",
+      "title": "일 상세 (은행별 그룹)",
+      "story_elements": [
+        "특정 날짜의 내역",
+        "은행별 그룹"
+      ],
+      "components": [
+        "screen-header",
+        "summary-header",
+        "bank-group-card",
+        "bank-squircle",
+        "transaction-row",
+        "amount-text",
+        "tab-bar"
+      ],
+      "texts": [
+        "9월 30일",
+        "-48,300원",
+        "입금 +1,250,000원",
+        "국민은행",
+        "3건",
+        "이체"
+      ],
+      "inputs": []
+    },
+    {
+      "id": "bank-transactions",
+      "title": "은행 펼침 + 메모",
+      "story_elements": [
+        "은행을 눌러 거래 확인"
+      ],
+      "components": [
+        "screen-header",
+        "bank-group-card",
+        "transaction-row",
+        "badge",
+        "transaction-sheet",
+        "memo-box",
+        "button-primary"
+      ],
+      "texts": [
+        "스타벅스 강남점",
+        "-12,800원",
+        "메모",
+        "저장",
+        "송금하기"
+      ],
+      "inputs": [
+        {
+          "component": "memo-box",
+          "binds_to": "note.body"
+        }
+      ]
+    }
+  ]
+}

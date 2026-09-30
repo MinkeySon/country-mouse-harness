@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "deny": [
+      "Edit(docs/**)",
+      "Write(docs/**)",
+      "Edit(harness/**)",
+      "Write(harness/**)"
+    ]
+  }
+}

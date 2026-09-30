@@ -1,0 +1,202 @@
+{
+  "file_key": "EXAMPLEFILEKEY",
+  "page": "us3-20260930",
+  "frames": [
+    {
+      "id": "1:1",
+      "name": "day-detail",
+      "width": 390,
+      "height": 844,
+      "fills": [
+        "#FDFDFD"
+      ],
+      "nodes": [
+        {
+          "id": "1:2",
+          "name": "title",
+          "type": "TEXT",
+          "text": "9월 30일",
+          "font_family": "Inter",
+          "font_size": 28,
+          "font_weight": 700,
+          "fills": [
+            "#141414"
+          ]
+        },
+        {
+          "id": "1:3",
+          "name": "total",
+          "type": "TEXT",
+          "text": "-48,300원",
+          "font_family": "Pretendard",
+          "font_size": 32,
+          "font_weight": 700,
+          "fills": [
+            "#141414"
+          ]
+        },
+        {
+          "id": "1:4",
+          "name": "deposit",
+          "type": "TEXT",
+          "text": "+1,250,000원",
+          "font_family": "Pretendard",
+          "font_size": 17,
+          "font_weight": 300,
+          "fills": [
+            "#0055FF"
+          ]
+        },
+        {
+          "id": "1:5",
+          "name": "bank-card",
+          "type": "FRAME",
+          "component": "bank-group-card",
+          "fills": [
+            "#FFFFFF"
+          ],
+          "strokes": [
+            "#F0F0F0"
+          ],
+          "radius": 24
+        },
+        {
+          "id": "1:6",
+          "name": "bank-mark",
+          "type": "FRAME",
+          "component": "bank-squircle",
+          "fills": [
+            "#F3F3F3"
+          ],
+          "radius": 10
+        },
+        {
+          "id": "1:7",
+          "name": "kind",
+          "type": "TEXT",
+          "text": "이체",
+          "font_family": "Pretendard",
+          "font_size": 13,
+          "font_weight": 400,
+          "fills": [
+            "#707070"
+          ]
+        },
+        {
+          "id": "1:8",
+          "name": "tab-bar",
+          "type": "FRAME",
+          "component": "tab-bar",
+          "fills": [
+            "#F3F3F3"
+          ],
+          "radius": 9999
+        }
+      ]
+    },
+    {
+      "id": "2:1",
+      "name": "bank-transactions",
+      "width": 390,
+      "height": 844,
+      "fills": [
+        "#FDFDFD"
+      ],
+      "nodes": [
+        {
+          "id": "2:2",
+          "name": "map",
+          "type": "RECTANGLE",
+          "component": "map-view",
+          "fills": [
+            "image"
+          ],
+          "radius": 0
+        },
+        {
+          "id": "2:3",
+          "name": "amount-bubble",
+          "type": "FRAME",
+          "component": "amount-bubble",
+          "fills": [
+            "#FFFFFF"
+          ],
+          "radius": 9999,
+          "shadow": true
+        },
+        {
+          "id": "2:4",
+          "name": "sheet",
+          "type": "FRAME",
+          "component": "transaction-sheet",
+          "fills": [
+            "#FFFFFF"
+          ],
+          "radius": [
+            24,
+            24,
+            0,
+            0
+          ],
+          "shadow": true
+        },
+        {
+          "id": "2:5",
+          "name": "merchant",
+          "type": "TEXT",
+          "text": "스타벅스 강남점",
+          "font_family": "Pretendard",
+          "font_size": 18,
+          "font_weight": 700,
+          "fills": [
+            "#141414"
+          ]
+        },
+        {
+          "id": "2:6",
+          "name": "amount",
+          "type": "TEXT",
+          "text": "-12,800원",
+          "font_family": "Pretendard",
+          "font_size": 32,
+          "font_weight": 700,
+          "fills": [
+            "#141414"
+          ]
+        },
+        {
+          "id": "2:7",
+          "name": "memo",
+          "type": "FRAME",
+          "component": "memo-box",
+          "fills": [
+            "#F0F0F0"
+          ],
+          "radius": 16
+        },
+        {
+          "id": "2:8",
+          "name": "save",
+          "type": "FRAME",
+          "component": "button-primary",
+          "fills": [
+            "#141414"
+          ],
+          "radius": 9999
+        },
+        {
+          "id": "2:9",
+          "name": "save-label",
+          "type": "TEXT",
+          "text": "저장",
+          "font_family": "Pretendard",
+          "font_size": 17,
+          "font_weight": 600,
+          "fills": [
+            "#FFFFFF"
+          ]
+        }
+      ]
+    }
+  ]
+}

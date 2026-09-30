@@ -1,0 +1,17 @@
+{
+  "story": 3,
+  "references": [
+    {
+      "app": "예시 은행 앱 A",
+      "ui_url": "https://uibowl.io/example/1",
+      "story_element": "은행별 그룹",
+      "takeaway": "은행별 합계를 헤더에 두고 눌러서 펼치는 구조를 가져온다"
+    },
+    {
+      "app": "예시 가계부 앱 B",
+      "ui_url": "https://uibowl.io/example/2",
+      "story_element": "특정 날짜의 내역",
+      "takeaway": "날짜 헤더에 그날 입금·출금 합계를 크게 보여준다"
+    }
+  ]
+}
