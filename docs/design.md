@@ -4,7 +4,7 @@ Sigolzwi (시골쥐) is a bank-agnostic money diary — it gathers deposits and 
 
 Color does exactly one job: **blue means money coming in, or "this is selected."** One electric blue (`{colors.accent}` — #0055FF) marks deposit amounts, the selected day, the active segment, and map pins. Withdrawals are never red — they are set in plain ink with a minus sign, so spending feels like a calm record instead of an alarm. Because blue is scarce, a blue element always tells the user something meaningful.
 
-The geometry carries the friendly, rustic-but-modern personality (the "country mouse" — small, frugal, unfussy). Every interactive element is a stadium pill (`{rounded.full}`): buttons, chips, the floating tab bar, the year/month/day switcher. Containers sit at a soft `{rounded.md}` (24px) and rows at `{rounded.sm}` (16px). Bank marks render as iOS-style squircles at 30% radius with a single-letter monogram, standing in for real bank logos. Type is Pretendard with strong weight contrast — Bold 700 for headings and big totals, Regular 400 for text — with tabular numerals so amounts align vertically.
+The geometry carries the friendly, rustic-but-modern personality (the "country mouse" — small, frugal, unfussy). Every interactive element is a stadium pill (`{rounded.full}`): buttons, chips, the floating tab bar, the year/month/day switcher. Containers sit at a soft `{rounded.md}` (24px) and rows at `{rounded.sm}` (16px). Bank marks render as iOS-style squircles at 30% radius with a single-letter monogram, standing in for real bank logos. Type is Noto Sans KR with strong weight contrast — Bold 700 for headings and big totals, Regular 400 for text — with tabular numerals so amounts align vertically.
 
 A small line-drawn country mouse appears only in onboarding and empty states, in muted ink, never in the working screens.
 
@@ -14,7 +14,7 @@ A small line-drawn country mouse appears only in onboarding and empty states, in
 - Blue = deposit / selected / map pin. Ink = withdrawal and everything else. Red is never used for money
 - Stadium-pill interaction language: buttons, chips, segmented switcher, floating tab bar
 - Shadow-free elevation — hierarchy from a neutral tint ladder (`{colors.canvas-soft}`, `{colors.field}`, `{colors.hairline}`) and 1px hairlines
-- Pretendard with weight contrast and tabular numerals; large totals, small quiet labels
+- Noto Sans KR with weight contrast and tabular numerals; large totals, small quiet labels
 - Squircle bank monograms (30% radius) as the recurring motif in day view and account lists
 - Progressive detail: year → month → day → bank → transaction → map, each step a calm zoom, never a jump
 - Warm and short Korean copy (해요체), never alarming
@@ -58,7 +58,7 @@ Kept deliberately small. State stays inside the monochrome ladder wherever possi
 
 ### Font Family
 
-**Pretendard** — a Korean–Latin neo-grotesque used exclusively, across every screen and role. On the web it loads as **Pretendard Variable**; in Figma use static weights (Light 300 · Regular 400 · SemiBold 600 · Bold 700). Fallback stack: `-apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif`.
+**Noto Sans KR** — a Korean–Latin sans-serif used exclusively, across every screen and role (available in Figma by default). In Figma use static weights (Light 300 · Regular 400 · Medium 500 · Bold 700). Fallback stack: `-apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif`.
 
 Sizes are set for the mobile baseline frame (390×844). Korean glyphs need more vertical room than Latin, so headings sit at 1.3–1.35 and body at 1.5.
 
@@ -70,12 +70,12 @@ Sizes are set for the mobile baseline frame (390×844). Korean glyphs need more 
 | `{typography.heading-1}` | 28px | 700    | 1.3         | 0              | Screen titles ("9월", "9월 30일")                            |
 | `{typography.heading-2}` | 22px | 700    | 1.35        | 0              | Section headings ("은행별 내역")                             |
 | `{typography.heading-3}` | 18px | 700    | 1.35        | 0              | Bank name, merchant name in sheet                            |
-| `{typography.title}`     | 17px | 600    | 1.4         | 0              | Emphasized rows, group totals                                |
+| `{typography.title}`     | 17px | 500    | 1.4         | 0              | Emphasized rows, group totals                                |
 | `{typography.body-lg}`   | 17px | 300    | 1.5         | 0              | Light lead lines under a display number                      |
 | `{typography.body}`      | 15px | 400    | 1.5         | 0              | Default body, transaction merchant names                     |
-| `{typography.amount}`    | 16px | 600    | 1.4         | 0              | Amounts in lists (tabular numerals)                          |
+| `{typography.amount}`    | 16px | 500    | 1.4         | 0              | Amounts in lists (tabular numerals)                          |
 | `{typography.body-sm}`   | 13px | 400    | 1.5         | 0              | Supporting copy, account masks, times                        |
-| `{typography.label}`     | 12px | 600    | 1.4         | 0              | Badge and chip labels                                        |
+| `{typography.label}`     | 12px | 500    | 1.4         | 0              | Badge and chip labels                                        |
 | `{typography.cell}`      | 11px | 500    | 1.2         | 0              | Amounts inside calendar cells (abbreviated: `125만`, `3.2만`)|
 | `{typography.caption}`   | 12px | 400    | 1.4         | 0              | Captions, metadata, form fine print                          |
 

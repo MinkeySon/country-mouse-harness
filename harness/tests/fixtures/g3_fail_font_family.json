@@ -28,7 +28,7 @@
           "name": "total",
           "type": "TEXT",
           "text": "-48,300원",
-          "font_family": "Pretendard",
+          "font_family": "Noto Sans KR",
           "font_size": 32,
           "font_weight": 700,
           "fills": [
@@ -40,7 +40,7 @@
           "name": "deposit",
           "type": "TEXT",
           "text": "+1,250,000원",
-          "font_family": "Pretendard",
+          "font_family": "Noto Sans KR",
           "font_size": 17,
           "font_weight": 300,
           "fills": [
@@ -75,7 +75,7 @@
           "name": "kind",
           "type": "TEXT",
           "text": "이체",
-          "font_family": "Pretendard",
+          "font_family": "Noto Sans KR",
           "font_size": 13,
           "font_weight": 400,
           "fills": [
@@ -145,7 +145,7 @@
           "name": "merchant",
           "type": "TEXT",
           "text": "스타벅스 강남점",
-          "font_family": "Pretendard",
+          "font_family": "Noto Sans KR",
           "font_size": 18,
           "font_weight": 700,
           "fills": [
@@ -157,7 +157,7 @@
           "name": "amount",
           "type": "TEXT",
           "text": "-12,800원",
-          "font_family": "Pretendard",
+          "font_family": "Noto Sans KR",
           "font_size": 32,
           "font_weight": 700,
           "fills": [
@@ -189,7 +189,7 @@
           "name": "save-label",
           "type": "TEXT",
           "text": "저장",
-          "font_family": "Pretendard",
+          "font_family": "Noto Sans KR",
           "font_size": 17,
           "font_weight": 600,
           "fills": [

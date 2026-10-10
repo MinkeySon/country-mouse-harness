@@ -32,7 +32,7 @@
 | 프레임 2~3개 (gates G3) | G3-FRAME-COUNT | gate_g3.py |
 | 허용 색 15개 (gates G3) | G3-COLOR | gate_g3.py |
 | 모서리 0/10/16/24/9999 (gates G3) | G3-RADIUS | gate_g3.py |
-| Pretendard만 (gates G3) | G3-FONT-FAMILY | gate_g3.py |
+| Noto Sans KR만 (gates G3) | G3-FONT-FAMILY | gate_g3.py |
 | 글자 크기 허용 목록 (gates G3) | G3-FONT-SIZE | gate_g3.py |
 | 글자 굵기 허용 목록 (gates G3) | G3-FONT-WEIGHT | gate_g3.py |
 | 그림자 허용 요소만 (gates G3) | G3-SHADOW | gate_g3.py |

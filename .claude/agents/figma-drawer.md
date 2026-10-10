@@ -24,7 +24,7 @@ tools: Read, Write, Glob, Skill, mcp__plugin_figma_figma__use_figma, mcp__plugin
 4. 설계서의 화면마다 **390×844** 프레임을 그린다. 프레임 이름 = 화면 `id`.
    - 요소 이름은 design.md 컴포넌트 이름을 쓴다 (예: `bank-group-card`).
    - 색·모서리·글자 크기·굵기는 rules.json 허용 값만 쓴다. 알약 모양 모서리는 9999.
-   - 폰트는 Pretendard만 쓴다.
+   - 폰트는 Noto Sans KR만 쓴다.
 5. 그린 뒤 `use_figma`로 프레임 안의 모든 요소를 읽어 `runs/<run>/03-figma/03-figma-frames.json`에 쓴다.
    - 요소마다: `id`, `name`, `type`, `component`(인스턴스면 컴포넌트 이름), `fills`, `strokes`(SOLID는 `#RRGGBB`, 이미지는 `"image"`), `radius`(숫자 또는 네 모서리 배열), `shadow`(그림자 효과가 있으면 true)
    - 글자 요소는 추가로: `text`, `font_family`, `font_size`, `font_weight`

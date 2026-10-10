@@ -10,7 +10,7 @@
     "#707070", "#ADADAD", "#C77A1E", "#FFF3E3", "#D64545"
   ],
   "radius_allowed": [0, 10, 16, 24, 9999],
-  "font_family": ["Pretendard"],
+  "font_family": ["Noto Sans KR"],
   "font_size_allowed": [11, 12, 13, 15, 16, 17, 18, 22, 28, 32],
   "font_weight_allowed": [300, 400, 500, 600, 700],
   "shadow_allowed_on": ["amount-bubble", "transaction-sheet"],
